@@ -479,7 +479,7 @@ def main():
 
 # Avvio del programma
 if __name__ == "__main__":
-    path_calculation_thread = threading.Thread(target=calculate_path)
+    path_calculation_thread = threading.Thread(target=calculate_path, args=(tipo_euristica,))
     path_calculation_thread.daemon = True
     path_calculation_thread.start()
 
