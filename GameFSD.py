@@ -21,6 +21,7 @@ count_goal = 0
 delay = 200  
 speed = 50   
 
+
 # Colori Standard
 WHITE = (255, 255, 255) # Bianco
 BLACK = (0, 0, 0) # Nero
